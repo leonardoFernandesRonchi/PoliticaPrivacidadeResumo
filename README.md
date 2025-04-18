@@ -77,8 +77,7 @@ npm run dev
 ```
 Em seguida, na pasta node, execute o servidor back-end:
 
-bash
-```
+```bash
 cd node
 node server.js
 ```
