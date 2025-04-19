@@ -95,6 +95,7 @@ Next.js: Framework React para otimizar o desenvolvimento e a performance.
 
 Node.js: Plataforma para o desenvolvimento de back-end utilizando JavaScript.
 
+---
 
 
 
