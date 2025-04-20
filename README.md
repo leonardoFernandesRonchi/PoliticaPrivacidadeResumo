@@ -38,6 +38,16 @@ Siga os passos abaixo para instalar o projeto corretamente:
 
 ---
 
+📄 Estrutura do Banco de Dados
+
+```
+CREATE TABLE politicas (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(255) NOT NULL
+);
+```
+---
+
 **Configuração do Banco de Dados e API**:
 
 Crie um arquivo `.env` dentro da pasta `node` com as seguintes configurações:
@@ -63,6 +73,18 @@ const corsOptions = {
 };
 
 ```
+---
+
+📌 Endpoints da API
+
+| Método | Rota                   | Descrição                          |
+|--------|------------------------|-----------------------------------|
+| POST   | `/politicas`           | Cria uma nova política            |
+| GET    | `/politicas`           | Lista todas as políticas          |
+| GET    | `/politicas/:id`       | Busca uma política por ID         |
+| DELETE | `/politicas/:id`       | Remove uma política               |
+| POST   | `/politicas/:id/resumo`| Gera resumo da política via Mistral|
+
 ---
 
 ⚙️ Executando
