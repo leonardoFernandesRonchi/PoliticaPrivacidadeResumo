@@ -43,7 +43,7 @@ Siga os passos abaixo para instalar o projeto corretamente:
 ```
 CREATE TABLE politicas (
   id INT PRIMARY KEY AUTO_INCREMENT,
-  nome VARCHAR(255) NOT NULL
+  texto TEXT NOT NULL
 );
 ```
 ---
