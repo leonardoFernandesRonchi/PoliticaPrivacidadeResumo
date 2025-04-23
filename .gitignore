@@ -22,6 +22,8 @@ ehthumbs.db
 # Pastas de dependências
 front/node_modules/
 node/node_modules/
+node_modules/
+
 
 # Pastas de build do Next.js
 front/.next/
